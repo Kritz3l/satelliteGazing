@@ -1,7 +1,205 @@
-p {
-    color: red;
+body {
+    background-color: #fff2e8;
+    font-family: 'Gilda Display', serif;
 }
 
-svg{
-    background-color: #151515;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
+
+.title{
+    /*font-family: 'Gilda Display', serif;*/
+    color: #222;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.footNote{
+    /*font-family: 'Gilda Display', serif;*/
+    color: #222;
+    right: 0;
+}
+
+.changeTime{
+    height: 2rem;
+    background-color: #fff2e8;
+    /*font-family: 'Gilda Display', serif;*/
+    color: #222;
+    border-width: 0;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* svg colors night */
+.cls-n1 {
+    fill: #d7dfe0;
+}
+
+.cls-n2 {
+    fill: #172730;
+}
+
+.cls-n3 {
+    fill: #4c5e60;
+}
+
+.cls-n4 {
+    fill: url(#Unbenannter_Verlauf_132-4);
+}
+
+.cls-n5 {
+    fill: #303647;
+}
+
+.cls-n6 {
+    fill: #878c8e;
+}
+
+.cls-n7 {
+    opacity: .5;
+}
+
+.cls-n8 {
+    fill: url(#Unbenannter_Verlauf_132-2);
+}
+
+.cls-n9 {
+    fill: #fff;
+}
+
+.cls-n9, .cls-n10 {
+    fill-rule: evenodd;
+}
+
+.cls-n11 {
+    fill: url(#Unbenannter_Verlauf_132-5);
+}
+
+.cls-n12 {
+    fill: #5d7050;
+}
+
+.cls-n13 {
+    fill: #797e7f;
+}
+
+.cls-n14, .cls-n15 {
+    opacity: .2;
+}
+
+.cls-n16 {
+    fill: #c9c9c7;
+}
+
+.cls-n15 {
+    fill: #232323;
+}
+
+.cls-n17 {
+    fill: #f9f9f7;
+}
+
+.cls-n18 {
+    fill: url(#verlaufNight);
+}
+
+.cls-n19 {
+    fill: #000d2d;
+}
+
+.cls-n10 {
+    fill: #625eab;
+}
+
+.cls-n20 {
+    opacity: .35;
+}
+
+.cls-n21 {
+    fill: url(#verlaufMoon);
+}
+
+.cls-n22 {
+    fill: url(#Unbenannter_Verlauf_132-3);
+}
+
+.cls-n23 {
+    fill: #23343f;
+}
+
+.cls-n24 {
+    fill: #676c6d;
+}
+
+.cls-n25 {
+    fill: url(#Unbenannter_Verlauf_132);
+}
+
+.cls-n26 {
+    fill: #54604c;
+}
+
+.cls-n27 {
+    fill: #385059;
+}
+
+.cls-n28 {
+    fill: #6f8263;
+}
+
+.cls-n29 {
+    fill: #6f7575;
+}
+
+.cls-n30 {
+    fill: url(#Unbenannter_Verlauf_81);
+}
+
+.cls-n31 {
+    fill: #636868;
+}
+
+.cls-n32 {
+    fill: url(#Unbenannter_Verlauf_132-6);
+}
+
+.cls-n33 {
+    fill: #081a51;
+}
+
+.cls-n34 {
+    fill: #5a5f60;
+}
+
+.cls-n35 {
+    fill: #2e424c;
+}
+
+.cls-n36 {
+    opacity: .3;
+}
+
+.cls-n37 {
+    fill: #3d4b4c;
+}
+
+.cls-n38 {
+    fill: #9ba0a3;
 }
